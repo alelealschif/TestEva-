@@ -1,0 +1,29 @@
+PassEVA updated: 2026-06-23 demo-fr
+
+Latest math content confirmed:
+- Calculer avec des rationnels fixed
+- PPCM explanations present
+- Calculer des racines updated
+- Calculer avec des relatifs updated with visual calculations
+- Appliquer la hierarchie updated with visual calculations
+- Test demo mathematiques updated to 80 questions
+- Distribution: Nombres 23, Proportionnalite 12, Algebre 17, Grandeurs et mesures 18, Espace 10
+- A comprendre list formatting present
+
+Latest French demo confirmed:
+- Test demo francais updated to 82 questions
+- Distribution: Comprehension de l'ecrit 37, Fonctionnement de la langue 45
+- Test selector added: Mathematiques / Francais
+
+2026-07-02:
+- Revision de mathematiques > Espace redesigned with visual geometry cards
+- Added figures planes, solides, instruments, developpements, reperage and symetrie explanations
+- Added CSS drawings for square, rectangle, circle, triangle, cube, cuboid, cylinder, pyramid, cube net and coordinate plane
+- Revision de mathematiques > Grandeurs et mesures + Pythagore improved
+- Added visual examples for perimetres, aires, volumes, unit conversions and Pythagore
+- Revision de mathematiques > Problemes avec les 4 operations improved
+- Added operation choice cards, guided examples, sachets problem solution and common mistakes
+- Visual refresh added without changing revision/test content
+- index.html is now self-contained with CSS and JavaScript included inline
+- Responsive menu and hash page navigation preserved
+- QA pass: syntax, inline assets, routes, demo question counts and mini-test layout checked
