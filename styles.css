@@ -2981,3 +2981,54 @@ body::before {
     justify-items: start;
   }
 }
+
+/* Strong final fix for all revision mini-tests: legends stay inside cards. */
+.topic-mini-test .mini-test-card {
+  overflow: visible !important;
+  padding: clamp(20px, 3vw, 32px) !important;
+}
+
+.topic-mini-test .mini-test-card > div:first-child {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  gap: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+.topic-mini-test .mini-test-card h4 {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  text-align: left !important;
+}
+
+.topic-mini-test .mini-question.compact {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  padding: 22px !important;
+  overflow: hidden !important;
+}
+
+.topic-mini-test .mini-question legend {
+  display: block !important;
+  float: left !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 0 14px !important;
+  padding: 0 !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+}
+
+.topic-mini-test .mini-question label:first-of-type {
+  clear: both !important;
+}
+
+.topic-mini-test .mini-question label {
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
